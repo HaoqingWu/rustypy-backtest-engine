@@ -1,8 +1,7 @@
 # Rust
 /target/
 **/*.rs.bk
-Cargo.lock
-/strategy/
+src/strategy
 
 # Python
 __pycache__/
