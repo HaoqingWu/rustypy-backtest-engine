@@ -1,6 +1,6 @@
 # RustyPy Backtesting Engine
 
-**This is a project growing out of my own prop trading, with the need of efficient parameter-tuning in high-dimensional parameter space.**
+**This is a project growing out of my own the need of efficient parameter-tuning of complex strategies with high-dimensional parameter space.**
 
 A light-weight and high-performance backtesting engine implemented in Rust with Python bindings, designed for binance perpetual trading.
 
