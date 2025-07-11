@@ -1,0 +1,19 @@
+[package]
+name = "rustypy-backtest-engine"
+version = "0.1.0"
+edition = "2021"
+
+# Dependencies for the Rust backtesting engine
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
+pyo3-polars = "0.9"  # For efficient Polars DataFrame integration with Python
+ndarray = "0.15"  # For numerical operations, if needed
+serde = { version = "1.0", features = ["derive"] }  # For serialization
+serde_json = "1.0"  # For JSON handling, if needed
+polars = { version = "0.35", features = ["lazy", "temporal", "strings"] }
+chrono = { version = "0.4", features = ["serde"] }
+[lib]
+crate-type = ["cdylib"]  # To create a dynamic library for Python bindings
+
+[profile.release]
+opt-level = 3  # Optimize for release builds

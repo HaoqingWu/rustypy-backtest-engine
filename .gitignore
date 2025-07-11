@@ -1,0 +1,43 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+.env
+.venv
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.cpython-*.so
+*.cpython-*.dylib
+backtest_log_*.txt
+*.profiling.txt
+tempCodeRunnerFile.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Examples directory
+python/examples/
