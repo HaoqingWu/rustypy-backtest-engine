@@ -2,6 +2,7 @@
 /target/
 **/*.rs.bk
 Cargo.lock
+/strategy/
 
 # Python
 __pycache__/
